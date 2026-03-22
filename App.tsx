@@ -246,7 +246,7 @@ export default function App() {
       <div ref={containerRef} className="absolute inset-0 z-0" />
 
       {/* BGM Audio Element */}
-      <audio ref={audioRef} src="/bgm.mp3" loop />
+      <audio ref={audioRef} src={`${import.meta.env.BASE_URL}bgm.mp3`} loop />
 
       {/* BGM Toggle Button */}
       <div className="absolute top-6 right-6 z-50 pointer-events-auto">
